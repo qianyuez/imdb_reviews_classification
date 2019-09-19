@@ -9,6 +9,15 @@ Train different classifiers to solve imdb reviews classification task and compar
 
 To get better result from keras model, set `validation_size` larger than 0 and set `plot` true. After training, you can get appropriate end step and prevent overfitting.
 
+keras model training arruracy curve:
+
+<img src="https://github.com/qianyuez/imdb_reviews_classification/blob/master/result/model_acc_curve.png">
+
+keras model training loss curve:
+
+<img src="https://github.com/qianyuez/imdb_reviews_classification/blob/master/result/model_loss_curve.png">
+
+
 
 ## Result
 ```
@@ -42,3 +51,7 @@ test precision: 0.704383664293743
 test recall: 0.303323652791223
 test f1 score: 0.4240442088643284
 ```
+
+classifiers roc curve:
+
+<img src="https://github.com/qianyuez/imdb_reviews_classification/blob/master/result/roc_curve.png">
